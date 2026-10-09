@@ -1,23 +1,18 @@
-# Backend — NestJS + TypeORM
+# Rust-Seite — Tauri 2
 
-Conventions for the backend. These rules apply to all work in this directory.
-Detailed guides live in `.claude/rules/` and are imported below.
+Hier liegt, was das Frontend nicht kann: Persistenz, Dateizugriff,
+OS-Integration. Rust, nicht TypeScript.
 
-## Scope hints (which guide applies where)
-- `**/*.controller.ts` → Swagger/OpenAPI docs → @.claude/rules/controller-api-docs.md
-- `**/*.dto.ts` → DTO design (class-validator + Swagger) → @.claude/rules/dto-design.md
-- `src/database/**/*.ts` → TypeORM entity/repository design → @.claude/rules/entity-design.md
-- `src/**/*.service.ts`, `src/**/*.module.ts` → repository/service layer → @.claude/rules/repository-service-layer.md
-- `src/db/migrations/**/*.ts` → migration conventions → @.claude/rules/typeorm-migrations.md
-- `**/*.spec.ts` → tests (Vitest + NestJS) → @.claude/rules/testing.md
-- everything → @.claude/rules/code-style.md & @.claude/rules/error-handling.md
+Die Tauri-Konventionen — IPC-Grenze, State, Fehlertypen, Capabilities — liegen
+zentral im Brain-Repo unter `rules/tauri/` und laden automatisch für jede Datei
+unter `src-tauri/` (aus `~/.claude/rules/brain/`). Hier gibt es nichts zu
+importieren. Bis 2026-08-27 standen sie als Volltext in diesem Ordner, wortgleich
+in Mellow und Mimi; zwei Kopien derselben Regel driften.
 
-## Always-on guides
-@.claude/rules/code-style.md
-@.claude/rules/error-handling.md
-@.claude/rules/controller-api-docs.md
-@.claude/rules/dto-design.md
-@.claude/rules/entity-design.md
-@.claude/rules/repository-service-layer.md
-@.claude/rules/testing.md
-@.claude/rules/typeorm-migrations.md
+## Was hier nicht gilt
+
+Kein NestJS, kein TypeORM, keine DTOs, kein Swagger — und keine der Vue-Regeln,
+die fuer `../src/` gelten.
+
+Projektspezifische Abweichungen kommen hierunter als Prosa, nie als kopierte
+Regeldatei.
