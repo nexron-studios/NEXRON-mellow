@@ -1,4 +1,22 @@
-# Mellow
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/brand/readme-banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="docs/brand/readme-banner-light.svg">
+  <img src="docs/brand/readme-banner-dark.svg" alt="Mellow by NEXRON Studios: track time on your tasks, run Pomodoros, keep notes, all on your own machine" width="100%">
+</picture>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Tauri-2-8c5cff?style=flat-square&labelColor=19191a&logo=tauri&logoColor=f0efec" alt="Tauri 2">
+<img src="https://img.shields.io/badge/Vue-3-8c5cff?style=flat-square&labelColor=19191a&logo=vuedotjs&logoColor=f0efec" alt="Vue 3">
+<img src="https://img.shields.io/badge/Rust-SQLite-8c5cff?style=flat-square&labelColor=19191a&logo=rust&logoColor=f0efec" alt="Rust and SQLite">
+<img src="https://img.shields.io/badge/shadcn--vue-Tailwind_4-8c5cff?style=flat-square&labelColor=19191a&logo=tailwindcss&logoColor=f0efec" alt="shadcn-vue, Tailwind 4">
+<img src="https://img.shields.io/badge/License-MIT-8c5cff?style=flat-square&labelColor=19191a&logo=opensourceinitiative&logoColor=f0efec" alt="MIT license">
+
+</div>
+
+<br>
 
 Mellow ist ein lokaler Desktop-Zeittracker für Aufgaben, Arbeitssessions und Markdown-Notizen. Alle Daten bleiben lokal auf deinem Rechner – keine Cloud, keine externe API.
 
@@ -221,3 +239,7 @@ Es wird keine externe API, keine Cloud und keine externe Datenbank verwendet. Zu
 ## Lizenz
 
 MIT License
+
+<br>
+
+<div align="center"><sub>Mellow is a NEXRON Studios tool. Banner from docs/brand/banner.json; the violet is the primary token of the default Violet Bloom theme in src/styles/style.css.</sub></div>

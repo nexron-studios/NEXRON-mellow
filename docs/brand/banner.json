@@ -1,0 +1,9 @@
+{
+  "name": "Mellow",
+  "tagline": "Track time on your tasks, run Pomodoros, keep notes, all on your own machine",
+  "glyph": "../../src-tauri/icons/mellow_logo.png",
+  "brand": "#8c5cff",
+  "brand_light": "#7033ff",
+  "pattern": "ruled",
+  "out": "."
+}
